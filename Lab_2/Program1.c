@@ -3,11 +3,11 @@
 // element as input, and it should output whether the element
 // is present in the matrix or not.
 
-// (ii) Modify your code so that you convert the code into a 
-// function called search(). 
+// (ii) Modify your code so that you convert the code into a
+// function called search().
 // Signature of search() can be as below:
-//  int search(int mat[][], int rows, int cols, int 
-// key). 
+//  int search(int mat[][], int rows, int cols, int
+// key).
 
 #include <stdio.h>
 #include <assert.h>
@@ -28,12 +28,11 @@ int main()
 
         printf("\n");
     }
-    
 
-    assert(search((int*)arr,3,3,4)==0);
-    assert(search((int*)arr,3,3,9)==-1);
-    assert(search((int*)arr,3,3,2)==0);
-   
+    assert(search((int *)arr, 3, 3, 4) == 0);
+    assert(search((int *)arr, 3, 3, 9) == -1);
+    assert(search((int *)arr, 3, 3, 2) == 0);
+
     return 0;
 }
 int search(int *arr, int row, int col, int key)
